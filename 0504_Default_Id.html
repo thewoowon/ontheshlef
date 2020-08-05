@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <title>Sample</title>
+        <style>
+            body{
+                background-image: url("image/Space-Race.jpg");
+                background-size: 100%;
+            }
+
+            a{
+                text-decoration: none;
+                color: turquoise;
+            }
+            a:hover{
+                color: teal;
+            }
+            nav ul{
+                padding-top: 10px;
+
+            }
+            nav ul li{
+                display: inline;
+                border-left: 1px solid #999;
+                font: bold 12px Dotum;
+                padding: 0 10px;
+            }
+            
+
+            #custom_hd{
+                width: 800px;
+                margin: 0 auto;
+                background-color: springgreen;
+            }
+            #custom_nav{
+                width: 800px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #custom_content > article >h1:hover
+            {
+                color:darkcyan;
+            }
+            #custom_content > article >h1:active
+            {
+                color:darkmagenta;
+            }
+            #custom_content{
+                background-color: darkmagenta;
+                margin: 0 auto;
+                float: left;
+
+            }
+            #wrap{
+                width: 1000px;
+                margin: 0 auto;
+                overflow: hidden;
+            }
+            #custom_aside{
+                width: 500px;
+                float: left;
+                background-color: violet;
+            }
+            #custom_footer{
+                width: 500px;
+            }
+            .item{
+                color: blue;
+            }
+            .second_footer{
+                background-color: cadetblue;
+                border: 1px #000000;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="custom_hd">
+                HTML기본
+            </h1>
+        </header>
+        <nav id = custom_nav>
+            <ul>
+                <li><a href="test03.html">메뉴1</a></li>
+                <li><a href="test03.html">메뉴2</a></li>
+                <li><a href="test03.html">메뉴3</a></li>
+            </ul>
+        </nav>
+        
+        <main id="wrap">
+            <aside id="custom_aside">
+                <p>
+                    .r_ico{width:46px;height:46px;background-position:-269px -390px;display:block;position:absolute;font-size:0;line-height:0;white-space:nowrap;vertical-align:middle}
+                        .r_vod_big{width:46px;height:46px;background-position:-269px -390px;left:8px;bottom:6px}
+                        .r_vod_large{width:36px;height:36px;background-position:-624px -390px;left:6px;bottom:4px}
+                        .type06 .r_vod_large,.type06_headline .r_vod_large{left:5px;bottom:5px}
+                        .r_vod_medium{width:26px;height:26px;background-position:-196px -593px;left:6px;bottom:5px}
+                        .r_vod_small{width:26px;height:26px;background-position:-226px -593px;left:6px;bottom:5px}
+                </p>
+            </aside>
+            <section>
+                <article id="custom_content">
+                    <h1>ddddd</h1>
+                    <p>
+                        .r_ico{width:46px;height:46px;background-position:-269px -390px;display:block;position:absolute;font-size:0;line-height:0;white-space:nowrap;vertical-align:middle}
+                        .r_vod_big{width:46px;height:46px;background-position:-269px -390px;left:8px;bottom:6px}
+                        .r_vod_large{width:36px;height:36px;background-position:-624px -390px;left:6px;bottom:4px}
+                        .type06 .r_vod_large,.type06_headline .r_vod_large{left:5px;bottom:5px}
+                        .r_vod_medium{width:26px;height:26px;background-position:-196px -593px;left:6px;bottom:5px}
+                        .r_vod_small{width:26px;height:26px;background-position:-226px -593px;left:6px;bottom:5px}
+                        .section .image .thumb .r_vod_small,.section .ranking_thumb .r_vod_small{left:3px;bottom:3px}
+                        .r_vod_xsmall{width:20px;height:20px;background-position:-425px -593px;left:3px;bottom:2px}
+                        .r_vod_txt{width:16px;height:16px;background-position:-200px -658px;position:static;display:inline-block}
+                        .r_tts_big{width:34px;height:34px;background-position:-224px -525px;left:10px;bottom:8px}
+                        .r_tts_medium{width:29px;height:29px;background-position:0px -625px;left:6px;bottom:6px}
+                        .r_tts_small{width:24px;height:24px;background-position:-185px -564px;left:8px;bottom:7px}
+                        .section .image .thumb .r_tts_small,.section .ranking_thumb .r_tts_small{left:4px;bottom:5px}
+                        .r_pho_big{width:46px;height:46px;background-position:-219px -390px;left:8px;bottom:6px}
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer id = "custom_footer">
+           <address class="item second_footer">
+                부산시 해운대구
+           </address>
+        </footer>
+    </body>
+</html>
